@@ -215,19 +215,19 @@
     }
     .hero h1 {
       font-family: var(--font-serif);
-      font-size: clamp(3rem, 8vw, 5.5rem);
+      font-size: clamp(3.75rem, 11vw, 7.5rem);
       font-weight: 800;
-      line-height: 1.05;
+      line-height: 1.0;
       letter-spacing: -0.03em;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2.75rem;
     }
-    .hero h1 .accent { color: var(--teal); }
+    .hero h1 .accent { color: var(--teal); display: block; }
     .hero-sub {
       font-size: clamp(1rem, 2vw, 1.2rem);
       color: var(--text-light);
       max-width: 580px;
-      margin-bottom: 2.5rem;
-      line-height: 1.7;
+      margin-bottom: 2.75rem;
+      line-height: 1.75;
       font-weight: 400;
     }
     .hero-actions {
@@ -685,7 +685,7 @@
     }
 
     @media (max-width: 500px) {
-      .hero h1 { font-size: 2.75rem; }
+      .hero h1 { font-size: clamp(2.75rem, 13vw, 3.75rem); }
       .cards { grid-template-columns: 1fr; }
       .process-steps { grid-template-columns: 1fr; }
     }
@@ -699,9 +699,9 @@
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
       <li><a href="#process">Process</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#whyus">Why Opparia</a></li>
     </ul>
-    <a class="nav-cta" href="https://wa.me/+918328249133" target="_blank" rel="noopener noreferrer">Get Started</a>
+    <a class="nav-cta" href="https://wa.me/+918328249133" target="_blank" rel="noopener noreferrer">Schedule Consultation</a>
     <button class="hamburger" id="hamburger" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
@@ -712,8 +712,8 @@
     <button class="mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
     <a href="#services" class="mobile-link">Services</a>
     <a href="#process" class="mobile-link">Process</a>
-    <a href="#contact" class="mobile-link">Contact</a>
-    <a href="https://wa.me/+918328249133" target="_blank" rel="noopener noreferrer" class="btn-primary">Get Started</a>
+    <a href="#whyus" class="mobile-link">Why Opparia</a>
+    <a href="https://wa.me/+918328249133" target="_blank" rel="noopener noreferrer" class="btn-primary">Schedule Consultation</a>
   </div>
 
   <!-- HERO -->
@@ -722,7 +722,7 @@
     <div class="hero-glow"></div>
     <div class="hero-inner">
       <div class="hero-eyebrow">US Career Acceleration</div>
-      <h1>We Apply.<br><span class="accent">You Interview.</span></h1>
+      <h1>We Apply.<span class="accent">You Interview.</span></h1>
       <p class="hero-sub">Stop spending your evenings searching and applying for jobs. Opparia's team manages your job search from start to finish — optimizing your profiles, identifying the right opportunities, and submitting carefully tailored applications on your behalf so you can focus on interviewing and getting hired.</p>
       <div class="hero-actions">
         <a class="btn-primary" href="https://wa.me/+918328249133" target="_blank" rel="noopener noreferrer">
@@ -835,7 +835,7 @@
   </section>
 
   <!-- WHY US -->
-  <section class="whyus">
+  <section class="whyus" id="whyus">
     <div class="container">
       <div class="whyus-inner">
         <div class="fade-up">
@@ -935,7 +935,7 @@
         <div class="footer-contact">
           <a href="mailto:team.opparia@gmail.com">team.opparia@gmail.com</a>
         </div>
-        <div class="footer-copy">&copy; 2026 Opparia. All rights reserved.</div>
+        <div class="footer-copy">&copy; 2025 Opparia. All rights reserved.</div>
       </div>
     </div>
   </section>
